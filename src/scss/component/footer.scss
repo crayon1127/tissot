@@ -1,0 +1,79 @@
+footer{
+    
+    width: 100%;
+    background: #ececec;
+    position: relative;
+}
+footer .map img{
+    width: 100%;
+    height: 100%;
+}
+
+footer .footer-list{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #ccc;
+}
+footer .footer-list a{
+    text-decoration: none;
+    color: #9a9a9a;
+    font-size: 14px;
+}
+footer .footer-list i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+footer .footer-list a:hover{
+    color: #e5252d;
+}
+footer .footer-list dl{
+    width: 15%;
+    margin-left:  5%;
+    float: left;
+    margin-top: 50px;
+}
+footer .footer-list dt{
+    font-weight: bolder;
+    color: #666;
+}
+footer .footer-list dd{
+    margin-top: 10px;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+}
+footer .footer-list dd p{
+    text-align: center;
+}
+footer .footer-img{
+    height: 160px;
+    position: relative;
+    margin-top:30px;
+    margin-left:5%;
+}
+footer div img{
+    width: 220px;
+}
+footer ul{
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 20px;
+}
+footer ul li{
+    margin: 10px;
+    border: 1px solid #777777;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+    float: left;
+}
+footer  h2{
+    background: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+}

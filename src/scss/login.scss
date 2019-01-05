@@ -1,0 +1,84 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+.box{
+    width: 80%;
+    height: 400px;
+    margin: 160px auto;
+}
+.box .login h3{
+    font-size: 36px;
+    margin:20px 10px ;
+}
+.box .login{
+    width: 64%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.box .login p{
+    margin-right: 440px;
+}
+.box .login form{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.box .login form input{
+    height: 40px;
+    width: 480px;
+    padding:0 10px;
+    margin-right: 50px;
+}
+.box .login form #login{
+    display: block;
+    background: #e5252d;
+    color: #fff;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 394px;
+}
+.box .login span{
+    display: block;
+    margin-right: 464px;
+}
+.box .login i{
+    font-size: 30px;
+    color: #ccc;
+    float: right;
+    margin:0 10px;
+}
+.box .login i:hover{
+    color: #e5252d;
+}
+.register{
+    width: 36%;
+    height: 100%;
+    float: right;
+}
+.box .register h3{
+    font-size: 36px;
+    margin: 20px 50px;
+}
+.box .register p{
+    margin: 10px 50px;
+}
+.box .register a{
+    margin: 40px 50px;
+    display: block;
+    background: #e5252d;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+}

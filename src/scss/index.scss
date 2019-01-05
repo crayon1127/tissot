@@ -1,0 +1,97 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+* {margin:0; padding:0; }
+li{list-style:none; }
+#div1 {width:100%; height:540px;overflow: hidden; position:relative;z-index: 2;}
+#div1 ul{position: absolute;left: 0;top: 0;width: 100%;}
+#div1 ul li{height:360;float: left;width: 16.666%;}
+
+#div1 ol {position:absolute;right: 45%;bottom: 10px;z-index:6}
+#div1 ol li{width: 20px;height: 20px;background: #fff;margin-left: 5px;float: left;line-height: 20px;text-align: center;cursor: pointer;border-radius: 50%;}
+#div1 ol li.ac{background: #999999;color: #fff;}
+#div1>a{text-decoration: none;position: absolute;top: 48%;margin-top: -10px;height: 40px;line-height: 32px;text-align: center;width: 40px;font-size: 40px;vertical-align: middle;color: #fff;background: rgba(0,0,0,0.5);z-index:6;}
+#goPrev{left: 0;}
+#goNext{right: 0;}
+main #div1 img{width: 100%; height:540px;}
+
+
+
+content{
+    background: #fff;
+}
+content .img-box{
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background: red;
+    border-bottom: 2px solid;
+    z-index: 1;
+}
+content h2{
+    display: block;
+    background: #fff;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+}
+content .img-box img{
+    width: 100%;
+    height: 100%;
+}
+content .watch-list ul{
+   width: 100%;
+   height: 1280px;
+   margin: 0 auto;
+   margin-top: -30px;
+   position: relative;
+   z-index: 1;
+   background: #fff;
+  
+// display: flex; 
+// justify-content: space-around;
+// align-content: space-around;
+}
+content .watch-list ul li{
+   width:40% ;
+   margin:50px 5%;
+   float: left;
+}
+content .watch-list ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+content .magazine{
+    overflow: hidden;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+content .magazine a{
+    font-size: 32px;
+    color: #fff;
+    display: block;
+    margin-top: 200px;
+}
+content .magazine a span{
+    color: red;
+    font-size: 36px;
+}
+
+content .magazine img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    opacity: 0.6;
+}
