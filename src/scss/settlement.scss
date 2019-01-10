@@ -1,0 +1,63 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+h2{
+    margin:20px;
+    margin-left: 5%;
+}
+.box table{
+    width: 90%;
+    margin:100px auto;
+}
+main{
+    min-height: 700px;
+    
+}
+.box table{
+    border: 1px solid;
+    border-collapse:collapse;
+}
+.box table th{
+    height:40px;
+}
+.box table tbody td{
+    height: 60px;
+    border: 1px solid;
+    text-align: center;
+}
+.box table th:nth-child(1){
+    width: 40%;  
+}
+.box table th:nth-child(2){
+    width: 20%;
+}
+.box table th:nth-child(3){
+    width: 20%;
+}
+.box table th:nth-child(4){
+    width: 20%;
+}
+.box table tbody img{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+    margin-top:20px;
+    float:left;
+}
+.box table tfoot td{
+    height: 80px;
+}
+.box table tfoot p{
+    text-align: center;
+}
+.buy{
+    height: 40px;
+    width: 300px;
+    background: #E5252D;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    margin-right:5%;
+}

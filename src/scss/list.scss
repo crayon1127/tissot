@@ -40,6 +40,11 @@
     flex-direction: column;
     font-size: 14px;
 }
+.shopping-list ul li img{
+    width: 240px;
+    height: 280px;
+}
+
 .shopping-list ul li p b{
     color: red;
 }
@@ -75,4 +80,7 @@
     top: 2px;
     left:2px;
 }
-
+.shopping-list ul li .hot img{
+    width: 60px;
+    height: 80px;
+}

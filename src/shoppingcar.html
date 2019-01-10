@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shoppingcar.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/font/iconfont.css"/>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/shoppingcar.js"></script>
+	</head>
+	<body>
+		<header></header>
+			<main>
+				<div class="null">
+					<h2>购物车为空</h2>
+					<p>您的购物车内没有物品</p>
+					<a href="list.html">继续购物</a>
+				</div>
+				<div class="mycar">
+					<h2>我的购物车</h2>
+					<p>在您的购物袋中商品不会一直保留，它有可能会售出 请尽快购买您喜欢的商品</p>
+					<a href="list.html">继续购物</a>
+				</div>
+				<div class="box">
+					<table>
+						<thead>
+							<tr>
+								<th>商品</th>
+								<th>单价</th>
+								<th>数量</th>
+								<th>小计</th>
+							</tr>
+						</thead>
+						<tbody  class="tbody">
+							<tr>
+								<td><a href="detail.html"></a></td>
+								<td><span>0.00</span></td>
+								<td><span class="min">-</span><input type="text" name="" id="" value="1" /><span class="add">+</span></td>
+								<td><span>0.00</span><div class="del">移除商品</div></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="2"><input type="text" name="" id="" value="请输入您的优惠券码" /><button class="yes">确定</button></td>
+								<td colspan="2"><p>总计<span id="allspend">¥ 0.00</span></p></td>
+							</tr>
+							<tr>
+								<td colspan="2"><b>安全支付</b><br /><img src="static/images/pay.png"/></td>
+								<td colspan="2"><button class="js">立即结算</button></td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</main>
+		<footer></footer>
+	</body>
+</html>

@@ -1,0 +1,162 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+.link{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.link a{
+    color: #000000;
+}
+.link a:hover{
+    color: #e5252d;
+}
+main{
+    margin: 0 auto;
+   width: 90%;
+}
+.buy{
+    height: 100%;
+    height: 650px;
+    border-bottom: 1px solid #ccc;
+}
+
+.center{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}
+.buy-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.buy-left .show{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;   
+}
+
+.buy-left .show img{
+    display: none;
+}
+
+.buy-left .show img.bigmigshow{
+    display: inline-block;
+}
+.buy-left ul{
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.buy-left ul li{
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 100px;
+}
+.buy-left ul li:hover{
+    border: 2px solid #E5252D;
+}
+.buy-left ul li img{
+    
+    width: 96px;
+    height: 96px;
+}
+.buy-right{
+    width: 50%;    
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.buy-right b{
+    display: inline-block;
+    color: #e5252d;
+    font-size: 24px;
+}
+.buy-right p{
+    margin: 10px;
+}
+.buy-right p:nth-child(2){
+    display: inline-block;
+    color: #CCCCCC;
+    font-size: 24px;
+}
+.buy-right p:nth-child(3){
+    color: #333333;
+    font-size: 18px;
+}
+.buy-right p:nth-child(4){
+    font-size: 20px;
+}
+.buy-right p:nth-child(5){
+    font-size: 14px;
+    color: #e5252d;
+}
+.buy-right input{
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.buy-right .addcar{
+    border: none;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    background: #e5252d;
+}
+.about{
+    width: 100%;
+    height: 1000px;
+}
+.about p:nth-child(1){
+    margin:24px 5%;
+    font-size: 24px;
+}
+.about img{
+    width: 100%;
+    height: 280px;
+}
+.about p:nth-child(3){
+    margin-top: 60px;
+    font-size: 14px;
+    margin-left:30%;
+}
+.about p:nth-child(4){
+    margin: 20px;
+    font-size: 14px;
+    margin-left:30%;
+}
+.about .history h2{
+    margin: 50px;
+    margin-left:30%;
+    
+}
+.about .history p{
+    margin: 20px;
+    font-size: 14px;
+    margin-left:30%;
+}

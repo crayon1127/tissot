@@ -51,6 +51,12 @@
    height: 400px;
    
 }
+.register form span{
+    color: red;
+    float: right;
+    margin-top: 2px;
+    opacity: 0;
+}
 .register h3{
     margin: 20px 20%;
 }
@@ -72,9 +78,10 @@
     padding:0 10px;
     height: 40px;
     width: 504px;
+    margin-bottom: 20px;
 }
-.register form a{
-    display: block;
+.register form button{
+    border: none;
     height: 40px;
     width: 400px;
     background: #e5252d;
@@ -83,3 +90,4 @@
     line-height: 40px;
     margin-right:104px ;
 }
+

@@ -1,0 +1,216 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+
+main{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+}
+.null{
+    display: none;
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    position: absolute;  
+}
+.null p{
+    margin: 20px;
+    font-size: 12px;
+}
+.null a{
+    margin:0 auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #000000;
+}
+.null a:hover{
+    background: #E5252D;
+}
+
+.mycar p{
+    margin: 20px;
+    font-size: 12px;
+}
+.mycar a{
+    margin:0 auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #000000;
+}
+.mycar a:hover{
+    background: #E5252D;
+}
+.mycar{
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.box{
+    margin-top: 300px;
+}
+table{
+    border-collapse:collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+table tbody {
+    border-bottom: 2px solid #ccc;
+}
+
+table tbody td{
+    height: 160px;
+    text-align: center;
+    position: relative;
+}
+table tbody img{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+    margin-top:20px;
+    float:left;
+}
+table tbody td .del{
+    color: #CCCCCC;
+    font-size: 12px;
+    cursor: pointer;
+    height: 16px;
+    width: 80px;
+    position: absolute;
+    right: 30%;
+    top:120px;
+}
+table tbody td .del:hover{
+    color: #E5252D;
+}
+table tbody p{
+    color: #000000;
+    line-height: 160px;
+    font-weight: 600;
+}
+table tbody p:hover{
+    color: #E5252D;
+}
+table tbody input{
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+table tbody .add{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+table tbody .min{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+table thead th{
+    height: 100px;
+    border-bottom:2px solid #ccc;
+}
+
+table tbody tr{
+    height: 160px;
+    border-bottom: 1px solid #ccc;
+}
+table th:nth-child(1){
+    width: 40%;  
+}
+table th:nth-child(2){
+    width: 20%;
+}
+table th:nth-child(3){
+    width: 20%;
+}
+table th:nth-child(4){
+    width: 20%;
+}
+table tfoot td p{
+    display: inline-block;
+    float: right;
+    width: 420px;
+    font-size: 24px;
+}
+table tfoot td{
+
+    height: 100px;
+}
+table td b{
+    margin:10px;
+}
+table tfoot td span{
+    float:right;
+    margin-right: 20px;
+}
+table tfoot input{
+    box-sizing: border-box;
+    height: 40px;
+    width: 320px;
+    padding: 10px;
+    font-size: 12px;
+    color: #999;
+}
+table td .yes{
+    height: 40px;
+    width: 72px;
+    background: #E5252D;
+    color: #fff;
+    line-height: 41px;
+    text-align: center;
+    border: none;
+}
+table td .js{
+    height: 42px;
+    width: 420px;
+    background: #E5252D;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    border: none;
+}
+

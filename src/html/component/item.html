@@ -1,0 +1,13 @@
+<ul>
+	<script type="text/html" id="list-template">
+		{{each list item i}}
+		<li>
+			<span class="hot"><img src="static/images/hot.png"/></span>
+			<img src="{{item.img}}" alt="" />
+			<p><b>Tissot</b> {{item.title}}</p>
+			<p>¥<span>{{item.price}}</span></p>
+			<a href="detail.html?id={{item.id}}">+ 查看详情</a>
+		</li>
+		{{/each}}
+	</script>
+</ul>
