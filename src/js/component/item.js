@@ -5,7 +5,7 @@ define(["jquery","template"],($,template)=>{
 	
 	Item.prototype.init = function(url){
 		//得到url，去请求数据，渲染结构，再load到页面上
-		console.log(url);
+		//console.log(url);
 		//load
 		new Promise((resolve,reject) =>{
 			$(".shopping-list").load("/html/component/item.html",()=>{
@@ -16,12 +16,12 @@ define(["jquery","template"],($,template)=>{
 				url:url,
 				type:"get",
 				success:function(res){
-					console.log(res);
+					//console.log(res);
 					if(res.res_code === 1){
 						let list = res.res_body.data;
-						console.log(template);
+						//console.log(template);
 						let html = template("list-template",{list:list});
-						console.log(html);
+						//console.log(html);
 						$(".shopping-list ul").html(html);
 						
 					}

@@ -1,7 +1,7 @@
 //首页的业务逻辑
 require(["./requirejs.config"], () => {
 	//引入index需要依赖的模块
-	require(["jquery", "header","footer"], () => {
+	require(["jquery","item","url" ,"header","footer"], ($,item,url) => {
 	
 	let $ul = $("#div1 ul");
 	let $imgs = $ul.children();
@@ -82,6 +82,7 @@ require(["./requirejs.config"], () => {
 		return autoPlay;
 	})());
 		
+		item.init(url.baseUrlRap+"/hot-list");
 	})
 })
 

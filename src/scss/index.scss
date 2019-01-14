@@ -47,21 +47,21 @@ content .img-box img{
 }
 content .watch-list ul{
    width: 100%;
-   height: 1280px;
+   min-height: 1200px;
    margin: 0 auto;
    margin-top: -30px;
    position: relative;
    z-index: 1;
    background: #fff;
   
-// display: flex; 
-// justify-content: space-around;
-// align-content: space-around;
+   display: flex; 
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-content: space-around;
 }
 content .watch-list ul li{
    width:40% ;
-   margin:50px 5%;
-   float: left;
+   margin:30px 5%;
 }
 content .watch-list ul li img{
     width: 100%;
@@ -94,4 +94,84 @@ content .magazine img{
     height: 100%;
     z-index: -999;
     opacity: 0.6;
+}
+
+.homewatch{
+    width: 100%;
+    background: #fff;
+}
+.homewatch img{
+    width: 100%;
+    height: 100%;
+}
+
+.shopping-list{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+.shopping-list ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.shopping-list ul li{
+    width: 22%;
+    height: 360px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+.shopping-list ul li img{
+    width: 240px;
+    height: 280px;
+}
+
+.shopping-list ul li p b{
+    color: red;
+}
+.shopping-list ul li p{
+    margin-top: 10px;   
+}
+.shopping-list ul li a{
+    display: none;
+}
+.shopping-list ul li:hover{
+    border: 1px solid #ccc;
+}
+.shopping-list ul li:hover .hot{
+    display: none;
+}
+.shopping-list ul li:hover p{
+    display: none;
+}
+.shopping-list ul li:hover a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    background: red;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.shopping-list ul li .hot{
+    position: absolute;
+    top: 2px;
+    left:2px;
+}
+.shopping-list ul li .hot img{
+    width: 60px;
+    height: 80px;
 }

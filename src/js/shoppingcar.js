@@ -52,6 +52,7 @@ require(["./requirejs.config"], () => {
 			calcPrice();
 			thisCprice.html(arr[trNum].cPrice);
 			$(this).prev().val(num);
+			
 		})
 		
 		$(".del").on("click",function(){			
@@ -70,12 +71,23 @@ require(["./requirejs.config"], () => {
 		})
 		
 		$(".Nwatch").on("blur",function(){
+			if(isNaN($(this).val())){
+				alert("请输入一个数！");
+				window.location.reload();
+			}else if($(this).val()<=0){
+				alert("数量最小为1！");
+				window.location.reload();
+			}else if($(this).val() != Math.floor($(this).val())){
+				alert("请输入整数！");
+				window.location.reload();
+			}else{
 			var thisCprice = $(this).parent().next().children(":first");
 			var trNum = $(this).parent().parent().index();
 			arr[trNum].num = $(this).val();
 			arr[trNum].cPrice = ($(this).val())*(arr[trNum].price);
 			calcPrice();
 			thisCprice.html(arr[trNum].cPrice);
+			}
 		})
 		
 		$(".js").on("click",function(){
